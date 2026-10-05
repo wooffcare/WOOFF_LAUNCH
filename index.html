@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Wooff Kids - Chocolate Toothpaste | Coming Soon</title>
+  <meta name="description" content="Better oral care for kids! Wooff Kids Chocolate Toothpaste is coming soon. Kid safe ingredients, cavity protection, and yummy taste kids love.">
+  
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- =========================================================================
+       DESKTOP VIEW (Screen width >= 992px)
+       Full screen edge-to-edge, no borders, shifted text & clear loading spinner
+       ========================================================================= -->
+  <div class="desktop-view d-none d-lg-flex">
+    <main class="desktop-hero-stage">
+      <!-- Full Widescreen Background with Blurred Toothpaste & Clean Sky -->
+      <img src="hero_clean_bg.png" alt="Wooff Kids Chocolate Toothpaste" class="desktop-bg-img">
+
+      <!-- Shifted Up: Search Pill with Typing Effect -->
+      <div class="desktop-search-pill">
+        <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <span class="search-text typing-target"></span><span class="typewriter-cursor"></span>
+      </div>
+
+      <!-- Shifted Up: 'The solution:' Text -->
+      <h2 class="desktop-solution-heading">The solution:</h2>
+
+      <!-- 12-Spoke iOS Activity Indicator Loading Spinner -->
+      <div class="desktop-spinner-container" aria-label="Loading...">
+        <svg class="ios-spinner" viewBox="0 0 100 100">
+          <line x1="50" y1="10" x2="50" y2="28" stroke="#374151" stroke-width="7" stroke-linecap="round" transform="rotate(0 50 50)" opacity="1.0" />
+          <line x1="50" y1="10" x2="50" y2="28" stroke="#374151" stroke-width="7" stroke-linecap="round" transform="rotate(30 50 50)" opacity="0.91" />
+          <line x1="50" y1="10" x2="50" y2="28" stroke="#374151" stroke-width="7" stroke-linecap="round" transform="rotate(60 50 50)" opacity="0.83" />
+          <line x1="50" y1="10" x2="50" y2="28" stroke="#374151" stroke-width="7" stroke-linecap="round" transform="rotate(90 50 50)" opacity="0.75" />
+          <line x1="50" y1="10" x2="50" y2="28" stroke="#374151" stroke-width="7" stroke-linecap="round" transform="rotate(120 50 50)" opacity="0.66" />
+          <line x1="50" y1="10" x2="50" y2="28" stroke="#374151" stroke-width="7" stroke-linecap="round" transform="rotate(150 50 50)" opacity="0.58" />
+          <line x1="50" y1="10" x2="50" y2="28" stroke="#374151" stroke-width="7" stroke-linecap="round" transform="rotate(180 50 50)" opacity="0.50" />
+          <line x1="50" y1="10" x2="50" y2="28" stroke="#374151" stroke-width="7" stroke-linecap="round" transform="rotate(210 50 50)" opacity="0.41" />
+          <line x1="50" y1="10" x2="50" y2="28" stroke="#374151" stroke-width="7" stroke-linecap="round" transform="rotate(240 50 50)" opacity="0.33" />
+          <line x1="50" y1="10" x2="50" y2="28" stroke="#374151" stroke-width="7" stroke-linecap="round" transform="rotate(270 50 50)" opacity="0.25" />
+          <line x1="50" y1="10" x2="50" y2="28" stroke="#374151" stroke-width="7" stroke-linecap="round" transform="rotate(300 50 50)" opacity="0.16" />
+          <line x1="50" y1="10" x2="50" y2="28" stroke="#374151" stroke-width="7" stroke-linecap="round" transform="rotate(330 50 50)" opacity="0.08" />
+        </svg>
+      </div>
+    </main>
+  </div>
+
+  <!-- =========================================================================
+       MOBILE & TABLET VIEW (Screen width < 992px)
+       Responsive Bootstrap layout: does NOT shrink, fits mobile screens natively
+       ========================================================================= -->
+  <div class="mobile-view d-flex d-lg-none">
+    <div class="container-fluid px-3 py-3">
+      
+      <!-- Mobile Top Bar: Monkey & Logo -->
+      <header class="mobile-header d-flex justify-content-between align-items-center mb-3">
+        <div class="mobile-monkey-box">
+          <img src="monkey.png" alt="Wooff Mascot" class="mobile-monkey-img">
+        </div>
+        <div class="mobile-logo-box">
+          <img src="logo.png" alt="Wooff Kids" class="mobile-logo-img">
+        </div>
+      </header>
+
+      <!-- Mobile Search Pill with Typing Effect -->
+      <div class="mobile-search-pill mb-3">
+        <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <span class="search-text typing-target"></span><span class="typewriter-cursor"></span>
+      </div>
+
+      <!-- Mobile 'The solution:' Heading -->
+      <div class="text-center mb-2">
+        <h2 class="mobile-solution-heading">The solution:</h2>
+      </div>
+
+      <!-- Mobile Loading Spinner -->
+      <div class="mobile-spinner-box mb-2">
+        <svg class="ios-spinner" viewBox="0 0 100 100">
+          <line x1="50" y1="10" x2="50" y2="28" stroke="#374151" stroke-width="7" stroke-linecap="round" transform="rotate(0 50 50)" opacity="1.0" />
+          <line x1="50" y1="10" x2="50" y2="28" stroke="#374151" stroke-width="7" stroke-linecap="round" transform="rotate(30 50 50)" opacity="0.91" />
+          <line x1="50" y1="10" x2="50" y2="28" stroke="#374151" stroke-width="7" stroke-linecap="round" transform="rotate(60 50 50)" opacity="0.83" />
+          <line x1="50" y1="10" x2="50" y2="28" stroke="#374151" stroke-width="7" stroke-linecap="round" transform="rotate(90 50 50)" opacity="0.75" />
+          <line x1="50" y1="10" x2="50" y2="28" stroke="#374151" stroke-width="7" stroke-linecap="round" transform="rotate(120 50 50)" opacity="0.66" />
+          <line x1="50" y1="10" x2="50" y2="28" stroke="#374151" stroke-width="7" stroke-linecap="round" transform="rotate(150 50 50)" opacity="0.58" />
+          <line x1="50" y1="10" x2="50" y2="28" stroke="#374151" stroke-width="7" stroke-linecap="round" transform="rotate(180 50 50)" opacity="0.50" />
+          <line x1="50" y1="10" x2="50" y2="28" stroke="#374151" stroke-width="7" stroke-linecap="round" transform="rotate(210 50 50)" opacity="0.41" />
+          <line x1="50" y1="10" x2="50" y2="28" stroke="#374151" stroke-width="7" stroke-linecap="round" transform="rotate(240 50 50)" opacity="0.33" />
+          <line x1="50" y1="10" x2="50" y2="28" stroke="#374151" stroke-width="7" stroke-linecap="round" transform="rotate(270 50 50)" opacity="0.25" />
+          <line x1="50" y1="10" x2="50" y2="28" stroke="#374151" stroke-width="7" stroke-linecap="round" transform="rotate(300 50 50)" opacity="0.16" />
+          <line x1="50" y1="10" x2="50" y2="28" stroke="#374151" stroke-width="7" stroke-linecap="round" transform="rotate(330 50 50)" opacity="0.08" />
+        </svg>
+      </div>
+
+      <!-- Mobile Product Showcase (Generously sized, NOT shrunk!) -->
+      <div class="mobile-product-wrapper mb-4">
+        <img src="product_mobile.png" alt="Wooff Chocolate Toothpaste Blurred Mystery" class="mobile-product-img">
+      </div>
+
+      <!-- Mobile 'Coming Soon' Section -->
+      <div class="mobile-coming-soon text-center mb-4">
+        <h3 class="mobile-cs-title">
+          Coming Soon
+          <span class="cs-burst">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2D1A0E" stroke-width="3" stroke-linecap="round">
+              <line x1="12" y1="2" x2="12" y2="7"></line>
+              <line x1="18.5" y1="5.5" x2="15" y2="9"></line>
+              <line x1="22" y1="12" x2="17" y2="12"></line>
+            </svg>
+          </span>
+        </h3>
+        <p class="mobile-cs-subtext">Something healthy & happy is on the way!</p>
+
+        <!-- 3 Benefit Badges -->
+        <div class="mobile-badges-row d-flex justify-content-center align-items-center gap-3 mt-3">
+          
+          <!-- Badge 1: Kid Safe Ingredients -->
+          <div class="benefit-badge text-center">
+            <div class="badge-icon-circle mx-auto mb-1">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="#10B981" stroke="#059669" stroke-width="1.5">
+                <path d="M17 8C8 10 5 16 8 21c4-1 10-4 11-11 0-1-.5-2-2-2z"></path>
+                <path d="M8 21c2-5 5-9 9-13" stroke="#059669" stroke-width="2" fill="none"></path>
+              </svg>
+            </div>
+            <span class="badge-label">Kid Safe<br>Ingredients</span>
+          </div>
+
+          <div class="badge-divider"></div>
+
+          <!-- Badge 2: Cavity Protection -->
+          <div class="benefit-badge text-center">
+            <div class="badge-icon-circle mx-auto mb-1">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2D1A0E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M7 3C4.5 3 3 5 3 8c0 4 2 8 3 13 1 0 2-1 3-3 1-2 2-2 3 0 1 2 2 3 3 3 1-5 3-9 3-13 0-3-1.5-5-4-5-2 0-3 2-5 2S9 3 7 3z"></path>
+              </svg>
+            </div>
+            <span class="badge-label">Cavity<br>Protection</span>
+          </div>
+
+          <div class="badge-divider"></div>
+
+          <!-- Badge 3: Yummy Taste Kids Love -->
+          <div class="benefit-badge text-center">
+            <div class="badge-icon-circle mx-auto mb-1">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2D1A0E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M8 14s1.5 2 4 2 4-2 4-2"></path>
+                <line x1="9" y1="9" x2="9.01" y2="9" stroke-width="3"></line>
+                <line x1="15" y1="9" x2="15.01" y2="9" stroke-width="3"></line>
+              </svg>
+            </div>
+            <span class="badge-label">Yummy Taste<br>Kids Love</span>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
